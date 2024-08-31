@@ -1,5 +1,5 @@
 # K-Means Clustering
-## K-means clustering is a popular and efficient unsupervised machine learning algorithm used to partition data into clusters based on similarity. This technique helps to identify patterns in data by grouping similar data points into clusters. This README file provides an overview of the K-means clustering process, including data preparation, choosing the number of clusters, and evaluating cluster quality.
+#### K-means clustering is a popular and efficient unsupervised machine learning algorithm used to partition data into clusters based on similarity. This technique helps to identify patterns in data by grouping similar data points into clusters. This README file provides an overview of the K-means clustering process, including data preparation, choosing the number of clusters, and evaluating cluster quality.
 
 ## 1. Data Preparation
 Begin with a dataset containing observations (data points) described by features (variables). Ensure that:
