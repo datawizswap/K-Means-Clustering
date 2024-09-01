@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+    </style>
+    <meta charset="UTF-8">
+    <title>Kmeans</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<body style="background-color:white;">
+    <marquee>KMeans Clustering</marquee>
+    <div class="login">
+        <img src="{{ url_for('static', filename='innologo.png') }}" alt="Logo">
+        <h1 style="color:red;">University KMeans Clustering</h1>
+        <form action="/success" method="POST" enctype="multipart/form-data">
+            <label for="file">Upload file here:</label>
+            <input type="file" name="file" required />
+            <br><br>
+            <label for="user">UserId:</label>
+            <input type="text" name="user" required />
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" required />
+            <br><br>
+            <label for="host">Host:</label>
+            <input type="text" name="host" required />
+            <br><br>
+            <label for="port">Port:</label>
+            <input type="text" name="port" required />
+            <br><br>
+            <label for="db">Database:</label>
+            <input type="text" name="db" required />
+            <br><br>
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+</body>
+</html>
