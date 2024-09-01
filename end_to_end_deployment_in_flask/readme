@@ -1,11 +1,11 @@
-# End-to-End Deployment of University Dataset Using KMeans Clustering in Flask
-### Overview
-#### This project demonstrates how to deploy a machine learning model using Flask to perform KMeans clustering on a university dataset. It involves:
+End-to-End Deployment of University Dataset Using KMeans Clustering in Flask
+Overview
+This project demonstrates how to deploy a machine learning model using Flask to perform KMeans clustering on a university dataset. It involves:
 
-#### Data preprocessing and KMeans model training.
-####Creating a Flask web application to interact with the model.
-#### Deploying the application to a local server.
-### Prerequisites
+Data preprocessing and KMeans model training.
+Creating a Flask web application to interact with the model.
+Deploying the application to a local server.
+Prerequisites
 Python 3.x: Ensure Python is installed.
 PostgreSQL: Database system for storing and retrieving data.
 Flask: Web framework for creating the web application.
