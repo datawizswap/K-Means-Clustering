@@ -1,5 +1,5 @@
 # KMeans Clustering for University Data
-### Overview
+Overview
 This project implements a KMeans clustering algorithm on university data to group universities based on features like SAT scores, acceptance rates, and more. The project includes data preprocessing (handling missing values, scaling), clustering analysis (using KMeans), and a Flask-based web application for dynamic university clustering. The results provide insight into how universities can be grouped based on their characteristics.
 
 Features
