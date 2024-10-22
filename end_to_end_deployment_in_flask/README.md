@@ -68,7 +68,8 @@ This project implements a KMeans clustering algorithm on university data to grou
 #####     if request.method == 'POST':
 #####         f = request.files['file']
 #####         data = pd.read_excel(f)
-#####         # Preprocessing
+
+#####         Preprocessing
 #####         data_clean = preprocess_data(data)
 #####         prediction = model1.predict(data_clean)
 #####         return render_template('index.html', Z="Clusters for new university data:", Y=prediction)
