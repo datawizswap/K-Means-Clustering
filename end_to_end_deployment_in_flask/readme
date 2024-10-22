@@ -16,3 +16,6 @@ Pandas: For data manipulation.
 Scikit-learn: For KMeans clustering.
 Sweetviz: For automated exploratory data analysis.
 Kneed: For determining the optimal number of clusters.
+
+
+project_root/ │ ├── app/ │ ├── init.py │ ├── routes.py │ ├── templates/ │ │ ├── index.html │ └── static/ │ ├── style.css │ ├── data/ │ ├── University_Clustering.xlsx │ ├── models/ │ ├── processed1.joblib │ ├── processed2.joblib │ └── clust_UNIV.pkl │ ├── notebooks/ │ ├── eda.ipynb │ ├── requirements.txt ├── README.md └── app.py
